@@ -19,5 +19,7 @@ public class PhoneBook {
     public String findByName(String name) {
         return nameToPhone.get(name);
     }
+    public void printAllNames() {
+    }
 
 }
